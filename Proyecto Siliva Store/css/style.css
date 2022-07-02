@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+
+.ofertas-h3{
+
+    margin: 0.3em;
+    text-align: center;
+
+}
+
+
+
+.ofertas-span{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+
+
+.card-section{
+    margin-top: 4vh;
+}
+
+
+.card-section img{
+    align-self: center;
+    width: 200px;
+    height: 200px;
+}
+
+.card-section button{
+    border: black;
+    background-color: #00a650;
+}
+
+.card-section button:hover,
+.card-section button:active,
+.card-section button:focus,
+.card-section button::after{
+    background-color: #028f46;
+
+}
+
+
+@media screen and (min-width: 768px){
+    article div{
+        background-color: #12052b;
+    }
+}

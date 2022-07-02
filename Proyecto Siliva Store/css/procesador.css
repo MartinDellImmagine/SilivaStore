@@ -1,0 +1,76 @@
+.aside{
+    display: none;
+    background-color: white;
+}
+
+body{
+    background-color: aliceblue;
+}
+main{
+    margin-top: 1em;
+}
+#nav{
+    height: 5vh;   
+    background-color: #12052b;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.perfil-photo{
+    margin: 0.8em;
+    display: none;
+}
+
+.mcard-body__p{
+    color: lightcoral;
+    font-size: 2em;
+}
+
+
+.mcard-container{
+    padding:1em;
+    border-bottom: 3px solid aliceblue;
+    display: flex;
+
+    background-color: white;
+}
+
+
+
+.mcard-img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.mcard-body{
+    margin: 0 1em;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .responsive-nav{
+        display: none;
+    }
+    .nav-2{
+        display: block;
+    }
+
+    .aside{
+        display: block;
+    }
+    article div{
+        background-color: #12052b;
+    }
+
+    .perfil-photo{
+        display: block;
+    }
+}
+
+
+
+
