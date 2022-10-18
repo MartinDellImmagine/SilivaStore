@@ -1,5 +1,6 @@
 //imports
 
+
 //Variables Globales
 const tbodyRoot = document.querySelector('#productosRoot')
 const arrayCarrito = JSON.parse(localStorage.getItem('Carrito'))
@@ -8,12 +9,14 @@ const arrayCarrito = JSON.parse(localStorage.getItem('Carrito'))
 
 function pintarCarro(datos) {
     let acumulador = 0
+    tbodyRoot.innerHTML = ''
     if(datos.length>0){
         
         datos.map(el=>{
             let {nombre,imagen, precio, cantidad, id} = el
             let precioTotal = precio *cantidad
             acumulador = acumulador + precioTotal
+            
             tbodyRoot.innerHTML += `
             <div class="card mb-3">
                 <div class="row g-0">
@@ -72,7 +75,7 @@ function pintarCarro(datos) {
                     <div class="col-md-2">
                         <div class="card-body">
                             <h5 class="card-title text-center">Total:</h5>
-                            <h5 class="card-text text-center">${acumulador}</h5>
+                            <h5 class="card-text text-center">$ ${acumulador}</h5>
                         </div>
                     </div>
                 </div>
@@ -112,7 +115,44 @@ function finalizar() {
     })
 }
 
+function sumarRestar(arrayCarrito) {
+    document.addEventListener('click',(event)=>{
+        if (event.target.className == 'btn btn-success btn-suma text-center' || event.target.className == 'bi bi-plus btn-suma'){
+            let id = event.target.dataset.id
+            arrayCarrito.find(elemento =>{
+                if (elemento.id == id){
+                    elemento.cantidad ++
+                }
+            })
+                
+            localStorage.setItem('Carrito', JSON.stringify(arrayCarrito))
+            pintarCarro(arrayCarrito)
+        }
+        else if (event.target.className == 'btn btn-danger btn-resta text-center' || event.target.className == 'bi bi-dash btn-resta'){
+            let id = event.target.dataset.id
+            arrayCarrito.find(elemento =>{
+                if (elemento.id == id){
+                    if (elemento.cantidad >1){
+                    elemento.cantidad =  elemento.cantidad - 1}
+                    else{
+                        let numero = arrayCarrito.indexOf(elemento)
+                        arrayCarrito.splice(numero, 1);
+                        
+                        
+                    }
+                }
+                
+                localStorage.setItem('Carrito', JSON.stringify(arrayCarrito))
+                pintarCarro(arrayCarrito)
+            })
+                
+        }
+    })
+    
+}
+
 // main
 
 pintarCarro(arrayCarrito)
+sumarRestar(arrayCarrito)
 finalizar()

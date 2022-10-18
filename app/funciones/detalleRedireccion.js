@@ -1,4 +1,4 @@
-export const detalle = (datos) =>{
+export const detalleRedireccion = (datos) =>{
     document.addEventListener('click', (event)=>{
         if(event.target.className == 'card-img-top' || event.target.className == 'card-title text-center'){
             let id = event.target.dataset.id
@@ -11,4 +11,4 @@ export const detalle = (datos) =>{
     })
 }
 
-export default detalle
+export default detalleRedireccion
