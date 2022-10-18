@@ -34,20 +34,20 @@
                     </tr>
     
                 `
-                tbody.innerHTML +=`
-                <tr>
-                        <th scope="row">Total: </th>
-                        <td></td>
-                        <td></td>
-                        <td>$ARS</td>
-                        <td>
-                             ${total}
-                           
-                        </td>
-                    </tr>
-                `
+
             })
-                  
+            tbody.innerHTML +=`
+            <tr>
+                    <th scope="row">Total: </th>
+                    <td></td>
+                    <td></td>
+                    <td>$ARS</td>
+                    <td>
+                         ${total}
+                       
+                    </td>
+                </tr>
+            `    
             }else{
                 tbody.innerHTML= `<tr>
                 <th scope="row">-</th>
