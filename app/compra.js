@@ -1,5 +1,8 @@
 //imports
 
+import detalleRedireccion from "./funciones/detalleRedireccion.js"
+import requestGet from "./helpers/requestGet.js"
+
 
 //Variables Globales
 const tbodyRoot = document.querySelector('#productosRoot')
@@ -21,12 +24,12 @@ function pintarCarro(datos) {
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2">
-                    <img src=${imagen} class="img-fluid rounded-start" alt=${nombre}>
+                    <img data-id="${id}" class="card-img-top" src=${imagen} class="img-fluid rounded-start" alt=${nombre}>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">${nombre}</h5>
-                            <p class="card-text">Valor por unidad: $${precio}</p>
+                            <h5 data-id="${id}" class="card-title text-center">${nombre}</h5>
+                            <p class="card-text text-center">Valor por unidad: $${precio}</p>
                         </div>
                     </div>
                     <div class="col-md-2">
@@ -152,7 +155,7 @@ function sumarRestar(arrayCarrito) {
 }
 
 // main
-
+requestGet('../productos.json').then(arrayDatos=>{detalleRedireccion(arrayDatos)})
 pintarCarro(arrayCarrito)
 sumarRestar(arrayCarrito)
 finalizar()

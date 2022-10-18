@@ -31,8 +31,9 @@ h2{
 
 }
 .card{
-    
+    margin: 1em;
     padding: 0.3em;
+    cursor: pointer;
 }
 
 .card img, .mcard-body__h5,.card-title{
@@ -69,8 +70,15 @@ footer .bi:hover{
     width: 100px;
 }
 
+.mcard-container{
+    margin: 1em 0;
+    box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.31);
+    -moz-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.31);
+}
 .mcard-body{
     margin: 0 1em;
+    
 }
 #carroModal button a{
     text-decoration: none;
@@ -98,6 +106,11 @@ footer .bi:hover{
     color: green;
 }
 
+.card:hover{
+    transform: scale(1.02);
+    transition: all 0.4s;
+
+}
 
 .carrito-cards img{
     max-width: 150px;
@@ -118,6 +131,7 @@ footer .bi:hover{
 
 @media screen and (max-width: 575px){
     .card{
+        margin:  0;
         width: 100%;
     }
 }

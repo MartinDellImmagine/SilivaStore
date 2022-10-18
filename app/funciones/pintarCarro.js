@@ -23,7 +23,6 @@
                 total = total + acumulador
                 tbody.innerHTML += `
                     <tr>
-                        <th scope="row">${id}</th>
                         <td>${nombre}</td>
                         <td>$ARS ${precio}</td>
                         <td>${cantidad}</td>
@@ -40,7 +39,7 @@
             tbody.innerHTML +=`
             <tr>
                     <th scope="row">Total: </th>
-                    <td></td>
+                    
                     <td></td>
                     <td>$ARS</td>
                     <td>
