@@ -13,7 +13,7 @@ const Ofertas = (arrayProductos) =>{
                 let {id,nombre,imagen,precio,precioDescuento} = el
                 cardsOfertas.innerHTML += `
           
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                   <img src="${imagen}" class="card-img-top" data-id="${id}" alt="${nombre}">
                   <div class="card-body">
                     <h5 class="card-title text-center" data-id="${id}">${nombre}</h5>

@@ -18,7 +18,7 @@ const carritoCompras = (arrayData)=>{
                 object.cantidad = 1
             }
             let encontrar = arrayCarrito.find(elemento => elemento == object)
-            
+            console.log(encontrar);
             if(encontrar){
                 object.cantidad ++
                 console.log('estoy');
@@ -48,15 +48,14 @@ const carritoCompras = (arrayData)=>{
                     elemento.cantidad =  elemento.cantidad - 1}
                     else{
                         let numero = arrayCarrito.indexOf(elemento)
-                        console.log(numero);
-                        console.log(arrayCarrito)
-                        arrayCarrito.splice(numero, numero+1);
-                        console.log(arrayCarrito);
+                        arrayCarrito.splice(numero, 1);
+                        
                         
                     }
                 }
-                pintarCarro()
+                
                 localStorage.setItem('Carrito', JSON.stringify(arrayCarrito))
+                pintarCarro()
             })
                 
         }
