@@ -17,16 +17,17 @@ const carritoCompras = (arrayData)=>{
             if(!object.cantidad){
                 object.cantidad = 1
             }
-            let encontrar = arrayCarrito.find(elemento => elemento == object)
-            console.log(encontrar);
+            let encontrar = arrayCarrito.find(elemento => elemento.id == id)
+            //console.log(encontrar);
             if(encontrar){
-                object.cantidad ++
-                console.log('estoy');
+                encontrar.cantidad ++
+                console.log(object);
             }else{
                 arrayCarrito.push(object)
             }
             
             localStorage.setItem('Carrito', JSON.stringify(arrayCarrito))
+            
             pintarCarro()
         }
         else  if (event.target.className == 'btn btn-success btn-suma' || event.target.className == 'bi bi-plus btn-suma'){

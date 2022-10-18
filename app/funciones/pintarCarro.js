@@ -16,6 +16,7 @@
             if(arrayCarrito.length > 0 ){
             let total = 0
             let acumulador
+            //console.log(arrayCarrito);
             arrayCarrito.map(el=>{
                 let {id,nombre, precio, cantidad} = el
                 acumulador = precio*cantidad
