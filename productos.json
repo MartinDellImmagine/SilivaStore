@@ -1,0 +1,266 @@
+[  
+    {
+    "nombre": "Procesador AMD Ryzen 3 4100 Sin cooler OEM",
+    "precio": 18400,
+    "stock": 44,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32737_Procesador_AMD_Ryzen_3_4100_Sin_cooler_OEM_d6ef51fc-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "amd",
+    "id": 1
+   },
+   {
+    "nombre": "Procesador AMD Ryzen 5 4500 + Wraith Stealth Cooler AM4",
+    "precio": 30450,
+    "stock": "22",
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32727_Procesador_AMD_Ryzen_5_4500___Wraith_Stealth_Cooler_AM4_475b8356-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "amd",
+    "id": 2
+   },
+   {
+    "nombre": "Procesador AMD Ryzen 5 5600G 4.4GHz Turbo + Wraith Stealth Coole",
+    "precio": 33500,
+    "precioDescuento": 39700,
+    "stock": "13",
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27675_Procesador_AMD_Ryzen_5_5600G_4.4GHz_Turbo___Wraith_Stealth_Cooler_d4e323ea-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "amd",
+    "id": 3
+   },
+   {
+    "nombre": "Procesador AMD Ryzen 7 5700X 4.6GHz Turbo AM4 - No incluye Cooler",
+    "precio": 61500,
+    "stock": "65",
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_31690_Procesador_AMD_Ryzen_7_5700X_4.6GHz_Turbo_AM4_-_No_incluye_Cooler_df22f6d7-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "amd",
+    "id": 4
+   },
+   {
+    "nombre": "Procesador AMD Ryzen 9 7950X 5.7GHz AM5 - No incluye Cooler - C/Video",
+    "precio": 209650,
+    "stock": 10,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_34442_Procesador_AMD_Ryzen_9_7950X_5.7GHz_AM5_-_No_incluye_Cooler_-_C_Video_8693790f-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "amd",
+    "id": 5
+   },
+   {
+    "nombre": "Procesador Intel Core i3 10100F 4.3GHz Turbo 1200 Comet Lake",
+    "precio": 18300,
+    "stock": 45,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_23223_Procesador_Intel_Core_i3_10100F_4.3GHz_Turbo_1200_Comet_Lake_6ea64940-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "intel",
+    "id": 6
+   },
+   {
+    "nombre": "Procesador Intel Core i3 10105 S1200 10th Gen Comet Lake",
+    "precio": 25900,
+    "stock": 24,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27138_Procesador_Intel_Core_i3_10105_S1200_10th_Gen_Comet_Lake_32f0c1f5-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "intel",
+    "id": 7
+   },
+   {
+    "nombre": "Procesador Intel Core i5 12400 Socket 1700",
+    "precio": 54100,
+    "stock": 23,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_29674_Procesador_Intel_Core_i5_12400_Socket_1700_98f9c5af-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "intel",
+    "id": 8
+   },
+   {
+    "nombre": "Procesador",
+    "precio": 111500,
+    "stock": 130,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_29140_Procesador_Intel_Core_i7_12700K_5.0GHz_Turbo_Socket_1700_4319ac0c-grn.jpg",
+    "categoria": "Procesadores",
+    "fabricante": "intel",
+    "id": 9
+   },
+   {
+    "nombre": "Mother ASUS PRIME A320M-K Ryzen 2da Gen Ready M-ATX",
+    "precio": "10900",
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_15566_Mother_ASUS_PRIME_A320M-K_Ryzen_2da_Gen_Ready_M-ATX_9f5c58de-grn.jpg",
+    "stock": "8",
+    "categoria": "MotherBoards",
+    "fabricante": "asus",
+    "id": 10
+   },
+   {
+    "nombre": "Mother ASUS PRIME A520M-K AM4r",
+    "precio": 17350,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_20551_Mother_ASUS_PRIME_A520M-K_AM4_f5d89e00-grn.jpg",
+    "stock": 6,
+    "categoria": "MotherBoards",
+    "fabricante": "asus",
+    "id": 11
+   },
+   {
+    "nombre": "Mother Asrock B450 Steel Legend AM4 RGB Dual M.2 Dual USB 3.1",
+    "precio": 29900,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_12887_Mother_Asrock_B450_Steel_Legend_AM4_RGB_Dual_M.2_Dual_USB_3.1_bef7a4f7-grn.jpg",
+    "stock": 20,
+    "categoria": "MotherBoards",
+    "fabricante": "asrock",
+    "id": 12
+   },
+   {
+    "nombre": "Mother ASUS PRIME X570-P AM4 PCIe Gen4 Dual M.2",
+    "precio": 32800,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_14215_Mother_ASUS_PRIME_X570-P_AM4_PCIe_Gen4_Dual_M.2_49e0b283-grn.jpg",
+    "stock": 50,
+    "categoria": "MotherBoards",
+    "fabricante": "asus",
+    "precioDescuento": 38200,
+    "id": 13
+   },
+   {
+    "nombre": "Mother MSI H310M PRO-VDH",
+    "precio": 10650,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_7342_Mother_MSI_H310M_PRO-VDH_f6a0fec1-grn.jpg",
+    "stock": 5,
+    "categoria": "MotherBoards",
+    "fabricante": "msi",
+    "id": 14
+   },
+   {
+    "nombre": "Mother ASUS PRIME H610M-E D4 S1700",
+    "precio": "21850",
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_30440_Mother_ASUS_PRIME_H610M-E_D4_S1700_3402c168-grn.jpg",
+    "stock": 10,
+    "categoria": "MotherBoards",
+    "fabricante": "asus",
+    "id": 15
+   },
+   {
+    "nombre": "Mother ASUS ROG STRIX Z590-E GAMING Wifi Socket 1200 10th/11th Gen",
+    "precio": 64650,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25122_Mother_ASUS_ROG_STRIX_Z590-E_GAMING_Wifi_Socket_1200_10th_11th_Gen_8d47ed9b-grn.jpg",
+    "stock": 100,
+    "categoria": "MotherBoards",
+    "fabricante": "asus",
+    "id": 16
+   },
+   {
+    "nombre": "Mother MSI MEG Z590 ACE Socket 1200",
+    "precio": 101650,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25804_Mother_MSI_MEG_Z590_ACE_Socket_1200_369f2058-grn.jpg",
+    "stock": 40,
+    "categoria": "MotherBoards",
+    "fabricante": "msi",
+    "id": 17
+   }
+   ,
+   {
+    "nombre": "Placa de Video Zotac GeForce GTX 1630 4GB GDDR6",
+    "precio": 46370,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_34240_Placa_de_Video_Zotac_GeForce_GTX_1630_4GB_GDDR6_d56ebd29-grn.jpg",
+    "stock": 8,
+    "categoria": "GPUs",
+    "fabricante": "zotac",
+    "id": 18
+   },
+   {
+    "nombre": "Placa de Video ASUS GeForce GTX 1660 SUPER 6GB GDDR6 Phoenix OC",
+    "precio": 80900,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_33539_Placa_de_Video_GALAX_GeForce_RTX_3050_8GB_GDDR6_e5f9a6ea-grn.jpg",
+    "stock": 6,
+    "categoria": "GPUs",
+    "fabricante": "asus",
+    "id": 19
+   },
+   {
+    "nombre": "Placa de Video GALAX GeForce RTX 3050 8GB GDDR6",
+    "precio": 94800,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_12887_Mother_Asrock_B450_Steel_Legend_AM4_RGB_Dual_M.2_Dual_USB_3.1_bef7a4f7-grn.jpg",
+    "stock": 20,
+    "categoria": "GPUs",
+    "fabricante": "galax",
+    "id": 20
+   },
+   {
+    "nombre": "Placa de Video GALAX GeForce RTX 3060 12GB GDDR6 LHR (1-Click OC)",
+    "precio": 113950,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32970_Placa_de_Video_GALAX_GeForce_RTX_3060_12GB_GDDR6_LHR__1-Click_OC__3e80184a-grn.jpg",
+    "stock": 50,
+    "categoria": "GPUs",
+    "fabricante": "asus",
+    "id": 21
+   },
+   {
+    "nombre": "Placa de Video XFX Radeon RX 6600 8GB GDDR6 Speedster SWFT210",
+    "precio": 78200,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28991_Placa_de_Video_XFX_Radeon_RX_6600_8GB_GDDR6_Speedster_SWFT210_fd5bdc5a-grn.jpg",
+    "stock": 5,
+    "categoria": "GPUs",
+    "fabricante": "xfx",
+    "id": 22
+   },
+   {
+    "nombre": "Placa de Video Asrock Radeon RX 6700 XT 12GB GDDR6 Challenger D OC",
+    "precio": 110000,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28860_Placa_de_Video_Asrock_Radeon_RX_6700_XT_12GB_GDDR6_Challenger_D_OC_fa2888f7-grn.jpg",
+    "stock": 10,
+    "categoria": "GPUs",
+    "fabricante": "asrock",
+    "id": 23
+   },
+   {
+    "nombre": "Placa de Video Asrock Radeon RX 6800 16GB GDDR6 Challenger Pro OC",
+    "precio": 155000,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_29869_Placa_de_Video_Asrock_Radeon_RX_6800_16GB_GDDR6_Challenger_Pro_OC_fceeaced-grn.jpg",
+    "stock": 100,
+    "categoria": "GPUs",
+    "fabricante": "asrock",
+    "id": 24
+   },
+   {
+    "nombre": "Placa de Video XFX Radeon RX 6800 XT CORE 16GB GDDR6 Speedster MERC 319",
+    "precio": 179000,
+    "precioDescuento": 185000,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27351_Placa_de_Video_XFX_Radeon_RX_6800_XT_CORE_16GB_GDDR6_Speedster_MERC_319_dd36dcea-grn.jpg",
+    "stock": 40,
+    "categoria": "GPUs",
+    "fabricante": "xfx",
+    "id": 25
+   },   {
+    "nombre": "Memoria Adata DDR4 8GB 3200Mhz XPG Gammix D30",
+    "precio": 9450,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_29591_Memoria_Adata_DDR4_8GB_3200Mhz_XPG_Gammix_D30_d24443c7-grn.jpg",
+    "stock": 5,
+    "categoria": "Memorias RAM",
+    "fabricante": "adata",
+    "id": 26
+   },
+   {
+    "nombre": "Memoria Team DDR4 8GB 3200MHz T-Force Delta RGB Black CL16-20-20-40",
+    "precio": 10050,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28414_Memoria_Team_DDR4_8GB_3200MHz_T-Force_Delta_RGB_Black_CL16-20-20-40_441c03ab-grn.jpg",
+    "stock": 10,
+    "categoria": "Memorias RAM",
+    "fabricante": "team",
+    "id": 27
+   },
+   {
+    "nombre": "Memoria Team DDR4 16GB 3200MHz T-Force Zeus",
+    "precio": 16900,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32216_Memoria_Team_DDR4_16GB_3200MHz_T-Force_Zeus_5f3acf99-grn.jpg",
+    "stock": 100,
+    "categoria": "Memorias RAM",
+    "fabricante": "team",
+    "id": 28
+   },
+   {
+    "nombre": "Memoria Team DDR4 32GB 2666MHz T-Force Delta RGB White CL181",
+    "precio": 25600,
+    "imagen": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28413_Memoria_Team_DDR4_32GB_2666MHz_T-Force_Delta_RGB_White_CL181_353ab761-grn.jpg",
+    "stock": 40,
+    "categoria": "Memorias RAM",
+    "fabricante": "team",
+    "id": 29
+   }
+]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilivaStore</title>
+
+    
+    <!-- bootstrap fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- My css -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <!-- My js -->
+    <script defer type="module" src="../app/productos.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">SilivaStore</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+        
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#carroModal">
+                    <i class="bi bi-cart-fill">  Carro</i>
+                    </button>
+                </span>
+              </div>
+            </div>
+          </nav>
+          <!-- Modal -->
+          <div class="modal fade" id="carroModal" tabindex="-1" aria-labelledby="carroModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                  
+                </tbody>
+              </table>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                  <a type="button" class="btn btn-outline-success" href="./compra.html" target="_blank">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <article class="">
+            <div class="container">
+                <div class="row justify-content-center perfilRoot">
+                    <img class="perfil-photo" src="../app/multimedia/images/gpu/perfil.jpg" alt="">
+                </div>
+                <div class="container text-center input-group input-group-sm my-3 ">
+                    <input type="text" class="form-control input-busqueda" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Buscar</span>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-3 aside">
+                        <div class="list-group asideRoot">
+
+                        </div>
+                    </div>
+                    <div class="col-md-9 productosRoot">
+                    </div>
+                </div>
+            </div>
+    
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
