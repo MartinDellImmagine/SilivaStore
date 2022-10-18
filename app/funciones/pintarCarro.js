@@ -13,9 +13,13 @@
             }
             let tbody = document.querySelector('#tbody')
             tbody.innerHTML = ''
+            if(arrayCarrito.length > 0 ){
+            let total = 0
+            let acumulador
             arrayCarrito.map(el=>{
                 let {id,nombre, precio, cantidad} = el
-                
+                acumulador = precio*cantidad
+                total = total + acumulador
                 tbody.innerHTML += `
                     <tr>
                         <th scope="row">${id}</th>
@@ -30,9 +34,30 @@
                     </tr>
     
                 `
+                tbody.innerHTML +=`
+                <tr>
+                        <th scope="row">Total: </th>
+                        <td></td>
+                        <td></td>
+                        <td>$ARS</td>
+                        <td>
+                             ${total}
+                           
+                        </td>
+                    </tr>
+                `
             })
                   
+            }else{
+                tbody.innerHTML= `<tr>
+                <th scope="row">-</th>
+                <td scope="row">El carrito esta vacio</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                </tr>`
             }
+        }
             
             
          catch (error) {
