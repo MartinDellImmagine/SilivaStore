@@ -27,7 +27,7 @@ const buscarAside= (datos)=>{
 const buscarInput = (datos)=>{
     searchInput.addEventListener('input', (event)=>{
         let buscar = event.target.value.toLowerCase()
-        let productosFiltrados = datos.filter(el => el.nombre.toLowerCase().includes(buscar))
+        let productosFiltrados = datos.filter(el => el.nombre.toLowerCase().includes(buscar) || el.categoria.toLowerCase().includes(buscar))
         Productos(productosFiltrados)
     })
     
